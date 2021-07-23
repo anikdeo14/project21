@@ -29,8 +29,8 @@ function setup(){
     ball = createSprite(random(20,750),100, 40,40);
     ball.shapeColor = rgb(255,255,255);
     //write code to add velocityX and velocityY
-        ball.VelocityX = 3;
-        ball.VelocityY =  2;
+        ball.VelocityX = -3;
+        ball.VelocityY =  +2;
 }
 
 function draw() {
