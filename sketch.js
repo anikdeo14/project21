@@ -37,7 +37,8 @@ function draw() {
     background(rgb(169,169,169));
     edges=createEdgeSprites();
     ball.bounceOff(edges);
-
+ball.VelocityX = -3;
+        ball.VelocityY =  +2;
     
     //write code to bounce off ball from the block1 
     if(block1.isTouching(ball) && ball.bounceOff(block1)){
